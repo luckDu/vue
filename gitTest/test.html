@@ -3,8 +3,42 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<style type="text/css">
+			html{
+				height: 100%;
+			}
+			body{
+				margin: 0;
+				height: 100%;
+			}
+			.box{
+				height: 100%;
+				position: relative;
+			}
+			.box div{
+				height: 100%;
+			}
+			.left{
+				margin-right: 210px;
+				background-color: #235454;
+			}
+			.right{
+				width: 200px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				background-color: #125463;
+			}
+		</style>
 	</head>
 	<body>
-		hello world
+		<div class="box">
+			<div class="left">
+				我是自适应的宽度
+			</div>
+			<div class="right">
+				我是固定宽度
+			</div>
+		</div>
 	</body>
 </html>
